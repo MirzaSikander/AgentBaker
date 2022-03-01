@@ -1,5 +1,5 @@
 #!/bin/bash
-IS_UU_ENABLED={{IsUnattendedUpgradeEnabled}}
+
 apply_unattended_upgrade_config (){
     local uu_file_path="/etc/apt/apt.conf.d/99periodic"
     [[ -e $uu_file_path ]] && rm -f $uu_file_path

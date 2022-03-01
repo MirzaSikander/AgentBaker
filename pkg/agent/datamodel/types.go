@@ -1343,6 +1343,7 @@ type NodeBootstrappingConfiguration struct {
 	GPUInstanceProfile             string
 	PrimaryScaleSetName            string
 	SIGConfig                      SIGConfig
+	IsUnattendedUpgradeEnabled     bool
 }
 
 // NodeBootstrapping represents the custom data, CSE, and OS image info needed for node bootstrapping.

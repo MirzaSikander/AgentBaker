@@ -748,5 +748,8 @@ func getContainerServiceFuncMap(config *datamodel.NodeBootstrappingConfiguration
 		"FIPSEnabled": func() bool {
 			return config.FIPSEnabled
 		},
+		"IsUnattendedUpgradeEnabled": func() bool {
+			return config.IsUnattendedUpgradeEnabled
+		},
 	}
 }
